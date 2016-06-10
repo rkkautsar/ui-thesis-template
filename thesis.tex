@@ -1,0 +1,115 @@
+%
+% Template Laporan Skripsi/Thesis 
+%
+% @author  Andreas Febrian, Lia Sadita 
+% @version 1.03
+%
+% Dokumen ini dibuat berdasarkan standar IEEE dalam membuat class untuk 
+% LaTeX dan konfigurasi LaTeX yang digunakan Fahrurrozi Rahman ketika 
+% membuat laporan skripsi. Konfigurasi yang lama telah disesuaikan dengan 
+% aturan penulisan thesis yang dikeluarkan UI pada tahun 2008.
+%
+
+%
+% Tipe dokumen adalah report dengan satu kolom. 
+%
+\documentclass[12pt, a4paper, onecolumn, oneside, final]{report}
+
+% Load konfigurasi LaTeX untuk tipe laporan thesis
+\usepackage{uithesis}
+
+
+% Load konfigurasi khusus untuk laporan yang sedang dibuat
+\input{laporan_setting}
+% Daftar pemenggalan suku kata dan istilah dalam LaTeX
+\include{hype.indonesia}
+% Daftar istilah yang mungkin perlu ditandai 
+\input{istilah}
+
+% Awal bagian penulisan laporan
+\begin{document}
+%
+% Sampul Laporan
+\include{sampul}
+
+%
+% Gunakan penomeran romawi
+\pagenumbering{roman}
+
+%
+% load halaman judul dalam
+\addChapter{HALAMAN JUDUL}
+\include{judul_dalam}
+
+%
+% setelah bagian ini, halaman dihitung sebagai halaman ke 2
+\setcounter{page}{2}
+
+%
+% load halaman pengesahan
+\addChapter{LEMBAR PERSETUJUAN}
+\include{pengesahan}
+%
+% load halaman orisinalitas 
+\addChapter{LEMBAR PERNYATAAN ORISINALITAS}
+\include{orisinal}
+%
+%
+\addChapter{LEMBAR PENGESAHAN}
+\include{pengesahan_sidang}
+%
+%
+\addChapter{\kataPengantar}
+\include{pengantar}
+%
+%
+\addChapter{LEMBAR PERSETUJUAN PUBLIKASI ILMIAH}
+\include{persetujuan_publikasi}
+%
+% 
+\addChapter{ABSTRAK}
+\include{abstrak}
+%
+%
+\include{abstract}
+
+%
+% Daftar isi, gambar, dan tabel
+%
+\tableofcontents
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
+\clearpage
+
+%
+% Gunakan penomeran Arab (1, 2, 3, ...) setelah bagian ini.
+%
+\pagenumbering{arabic}
+
+%
+%
+%
+\include{bab1}
+\include{bab2}
+\include{bab3}
+\include{bab4}
+\include{bab5}
+\include{bab6}
+\include{kesimpulan}
+
+%
+% Daftar Pustaka
+\include{pustaka}
+
+%
+% Lampiran 
+%
+\begin{appendix}
+	\include{markLampiran}
+	\setcounter{page}{2}
+	\include{lampiran}
+\end{appendix}
+
+\end{document}

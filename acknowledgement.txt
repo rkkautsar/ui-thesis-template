@@ -1,0 +1,15 @@
+
+Ketentuan mengenai lisensi hanya berlaku untuk template. 
+Dokumen yang dibuat dengan menggunakan template tersebut sepenuhnya menjadi 
+milik penulis dan dapat didistribusikan sesuai dengan keperluan masing-masing. 
+Setiap template baru yang dibuat dari template ini harus mengikuti aturan 
+yang tertera dalam template_license.txt.
+
+
+Penulis Template: Andreas Febrian 
+
+Kontributor:
+ - Lia Sadita
+ - Fahrurrozi Rahman 
+ - Andre Tampubolon 
+ - Erik Dominikus

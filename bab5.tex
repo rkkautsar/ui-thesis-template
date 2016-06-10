@@ -1,0 +1,80 @@
+%-----------------------------------------------------------------------------%
+\chapter{\babLima}
+%-----------------------------------------------------------------------------%
+\todo{Tambahkan kata-kata pengantar bab 5 disini.}
+
+
+%-----------------------------------------------------------------------------%
+\section{Mengubah Tampilan Teks}
+%-----------------------------------------------------------------------------%
+Beberapa perintah yang dapat digunakan untuk mengubah tampilan adalah: 
+\begin{itemize}
+	\item \bslash f \\
+		Merupakan alias untuk perintah \bslash textit, contoh 
+		\f{contoh hasil tulisan}.
+	\item \bslash bi \\
+		\bi{Contoh hasil tulisan}.
+	\item \bslash bo \\
+		\bo{Contoh hasil tulisan}.
+	\item \bslash m \\
+		\m{Contoh hasil tulisan}.
+	\item \bslash mc \\
+		\mc{Contoh hasil tulisan}.
+	\item \bslash code \\ 
+		\code{Contoh hasil tulisan}.
+\end{itemize}
+
+
+%-----------------------------------------------------------------------------%
+\section{Memberikan Catatan}
+%-----------------------------------------------------------------------------%
+Ada dua perintah untuk memberikan catatan penulisan dalam dokumen yang Anda 
+kerjakan, yaitu: 
+\begin{itemize}
+	\item \bslash todo \\
+		Contoh: \\ \todo{Contoh bentuk todo.}
+	\item \bslash todoCite \\ 
+		Contoh: \todoCite
+\end{itemize}
+
+
+%-----------------------------------------------------------------------------%
+\section{Menambah Isi Daftar Isi}
+%-----------------------------------------------------------------------------%
+Terkadang ada kebutuhan untuk memasukan kata-kata tertentu kedalam Daftar Isi. 
+Perintah \bslash addChapter dapat digunakan untuk judul bab dalam Daftar isi. 
+Contohnya dapat dilihat pada berkas thesis.tex.
+
+
+%-----------------------------------------------------------------------------%
+\section{Memasukan PDF}
+%-----------------------------------------------------------------------------%
+Untuk memasukan PDF dapat menggunakan perintah \bslash inpdf yang menerima satu 
+buah argumen. Argumen ini berisi nama berkas yang akan digabungkan dalam 
+laporan. PDF yang dimasukan degnan cara ini akan memiliki header dan footer 
+seperti pada halaman lainnya. 
+
+\inpdf{include}
+
+Cara lain untuk memasukan PDF adalah dengan menggunakan perintah \bslash putpdf 
+dengan satu argumen yang berisi nama berkas pdf. Berbeda dengan perintah 
+sebelumnya, PDF yang dimasukan dengan cara ini tidak akan memiliki footer atau 
+header seperti pada halaman lainnya. 
+
+\putpdf{include}
+
+
+%-----------------------------------------------------------------------------%
+\section{Membuat Perintah Baru}
+%-----------------------------------------------------------------------------%
+Ada dua perintah yang dapat digunakan untuk membuat perintah baru, yaitu: 
+\begin{itemize}
+	\item \bslash Var \\
+		Digunakan untuk membuat perintah baru, namun setiap kata yang diberikan
+		akan diproses dahulu menjadi huruf kapital. 
+		Contoh jika perintahnya adalah \bslash Var\{adalah\} makan ketika 
+		perintah \bslash Var dipanggil, yang akan muncul adalah ADALAH. 
+	\item \bslash var \\
+		Digunakan untuk membuat perintah atau baru. 
+\end{itemize}
+

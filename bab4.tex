@@ -1,0 +1,70 @@
+%-----------------------------------------------------------------------------%
+\chapter{\babEmpat}
+%-----------------------------------------------------------------------------%
+\todo{tambahkan kata-kata pengantar bab 1 disini}
+
+%-----------------------------------------------------------------------------%
+\section{thesis.tex}
+%-----------------------------------------------------------------------------%
+Berkas ini berisi seluruh berkas Latex yang dibaca, jadi bisa dikatakan sebagai 
+berkas utama. Dari berkas ini kita dapat mengatur bab apa saja yang ingin 
+kita tampilkan dalam dokumen.
+
+
+%-----------------------------------------------------------------------------%
+\section{laporan\_setting.tex}
+%-----------------------------------------------------------------------------%
+Berkas ini berguna untuk mempermudah pembuatan beberapa template standar. 
+Anda diminta untuk menuliskan judul laporan, nama, npm, dan hal-hal lain yang 
+dibutuhkan untuk pembuatan template. 
+
+
+%-----------------------------------------------------------------------------%
+\section{istilah.tex}
+%-----------------------------------------------------------------------------%
+Berkas istilah digunakan untuk mencatat istilah-istilah yang digunakan. 
+Fungsinya hanya untuk memudahkan penulisan.
+Pada beberapa kasus, ada kata-kata yang harus selalu muncul dengan tercetak 
+miring atau tercetak tebal. 
+Dengan menjadikan kata-kata tersebut sebagai sebuah perintah \latex~tentu akan 
+mempercepat dan mempermudah pengerjaan laporan. 
+
+
+%-----------------------------------------------------------------------------%
+\section{hype.indonesia.tex}
+%-----------------------------------------------------------------------------%
+Berkas ini berisi cara pemenggalan beberapa kata dalam bahasa Indonesia. 
+\latex~memiliki algoritma untuk memenggal kata-kata sendiri, namun untuk 
+beberapa kasus algoritma ini memenggal dengan cara yang salah. 
+Untuk memperbaiki pemenggalan yang salah inilah cara pemenggalan yang benar 
+ditulis dalam berkas hype.indonesia.tex.
+
+
+%-----------------------------------------------------------------------------%
+\section{pustaka.tex}
+%-----------------------------------------------------------------------------%
+Berkas pustaka.tex berisi seluruh daftar referensi yang digunakan dalam 
+laporan. 
+Anda bisa membuat model daftar referensi lain dengan menggunakan bibtex.
+Untuk mempelajari bibtex lebih lanjut, silahkan buka 
+\url{http://www.bibtex.org/Format}. 
+Untuk merujuk pada salah satu referensi yang ada, gunakan perintah \bslash 
+cite, e.g. \bslash cite\{latex.intro\} yang akan akan memunculkan 
+\cite{latex.intro}
+
+
+%-----------------------------------------------------------------------------%
+\section{bab[1 - 6].tex}
+%-----------------------------------------------------------------------------%
+Berkas ini berisi isi laporan yang Anda tulis. 
+Setiap nama berkas e.g. bab1.tex merepresentasikan bab dimana tulisan tersebut 
+akan muncul. 
+Sebagai contoh, kode dimana tulisan ini dibaut berada dalam berkas dengan nama 
+bab4.tex. 
+Ada enam buah berkas yang telah disiapkan untuk mengakomodir enam bab dari 
+laporan Anda, diluar bab kesimpulan dan saran. 
+Jika Anda tidak membutuhkan sebanyak itu, silahkan hapus kode dalam berkas 
+thesis.tex yang memasukan berkas \latex~yang tidak dibutuhkan;  contohnya 
+perintah \bslash include\{bab6.tex\} merupakan kode untuk memasukan berkas 
+bab6.tex kedalam laporan.
+
