@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: sampul.aux
+A level-1 auxiliary file: judul_dalam.aux
+A level-1 auxiliary file: pengesahan.aux
+A level-1 auxiliary file: orisinal.aux
+A level-1 auxiliary file: pengesahan_sidang.aux
+A level-1 auxiliary file: pengantar.aux
+A level-1 auxiliary file: persetujuan_publikasi.aux
+A level-1 auxiliary file: abstrak.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: bab1.aux
+A level-1 auxiliary file: bab2.aux
+A level-1 auxiliary file: bab3.aux
+A level-1 auxiliary file: bab4.aux
+A level-1 auxiliary file: bab5.aux
+A level-1 auxiliary file: bab6.aux
+A level-1 auxiliary file: kesimpulan.aux
+The style file: ieeetr.bst
+A level-1 auxiliary file: markLampiran.aux
+A level-1 auxiliary file: lampiran.aux
+Database file #1: pustaka.bib
+Warning--entry type for "latex.intro" isn't style-file defined
+--line 5 of file pustaka.bib
+You've used 2 entries,
+            1876 wiz_defined-function locations,
+            507 strings with 3925 characters,
+and the built_in function-call counts, 475 in all, are:
+= -- 48
+> -- 12
+< -- 0
++ -- 5
+- -- 3
+* -- 29
+:= -- 71
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 2
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 21
+empty$ -- 49
+format.name$ -- 3
+if$ -- 115
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 1
+newline$ -- 9
+num.names$ -- 2
+pop$ -- 8
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 19
+stack$ -- 0
+substring$ -- 32
+swap$ -- 9
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 5
+width$ -- 3
+write$ -- 20
+(There was 1 warning)

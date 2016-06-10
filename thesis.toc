@@ -1,0 +1,51 @@
+\contentsline {chapter}{HALAMAN JUDUL}{i}{section*.2}
+\contentsline {chapter}{LEMBAR PERSETUJUAN}{ii}{section*.4}
+\contentsline {chapter}{LEMBAR PERNYATAAN ORISINALITAS}{iii}{section*.5}
+\contentsline {chapter}{LEMBAR PENGESAHAN}{iv}{section*.6}
+\contentsline {chapter}{\uppercase {Kata Pengantar}}{v}{section*.7}
+\contentsline {chapter}{LEMBAR PERSETUJUAN PUBLIKASI ILMIAH}{vii}{section*.10}
+\contentsline {chapter}{ABSTRAK}{viii}{section*.11}
+\contentsline {chapter}{Daftar Isi}{x}{section*.11}
+\contentsline {chapter}{Daftar Gambar}{xii}{section*.11}
+\contentsline {chapter}{Daftar Tabel}{xiii}{section*.11}
+\contentsline {chapter}{\numberline {1}\uppercase {Pendahuluan}}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Permasalahan}{1}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Definisi Permasalahan}{1}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Batasan Permasalahan}{1}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Tujuan}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Posisi Penelitian}{2}{section.1.4}
+\contentsline {section}{\numberline {1.5}Metodologi Penelitian}{2}{section.1.5}
+\contentsline {section}{\numberline {1.6}Sistematika Penulisan}{2}{section.1.6}
+\contentsline {chapter}{\numberline {2}\uppercase {Sekilas Mengenai \LaTeX }}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}\LaTeX \nobreakspace {}Secara Singkat}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}\LaTeX \nobreakspace {}Kompiler dan IDE}{5}{section.2.2}
+\contentsline {section}{\numberline {2.3}Bold, Italic, dan Underline}{5}{section.2.3}
+\contentsline {section}{\numberline {2.4}Memasukan Gambar}{6}{section.2.4}
+\contentsline {section}{\numberline {2.5}Membuat Tabel}{6}{section.2.5}
+\contentsline {chapter}{\numberline {3}\uppercase {Notasi Matematik}}{8}{chapter.3}
+\contentsline {section}{\numberline {3.1}Satu Persamaan}{8}{section.3.1}
+\contentsline {section}{\numberline {3.2}Lebih dari Satu Persamaan}{8}{section.3.2}
+\contentsline {chapter}{\numberline {4}\uppercase {Struktur Berkas}}{10}{chapter.4}
+\contentsline {section}{\numberline {4.1}thesis.tex}{10}{section.4.1}
+\contentsline {section}{\numberline {4.2}laporan\_setting.tex}{10}{section.4.2}
+\contentsline {section}{\numberline {4.3}istilah.tex}{10}{section.4.3}
+\contentsline {section}{\numberline {4.4}hype.indonesia.tex}{10}{section.4.4}
+\contentsline {section}{\numberline {4.5}pustaka.tex}{11}{section.4.5}
+\contentsline {section}{\numberline {4.6}bab[1 - 6].tex}{11}{section.4.6}
+\contentsline {section}{\numberline {4.7}Penulisan \textit {code} atau \textit {pseudocode} program}{11}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}\textit {Inline}}{11}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}\textit {Multiline}}{11}{subsection.4.7.2}
+\contentsline {chapter}{\numberline {5}\uppercase {Perintah dalam uithesis.sty}}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}Mengubah Tampilan Teks}{13}{section.5.1}
+\contentsline {section}{\numberline {5.2}Memberikan Catatan}{13}{section.5.2}
+\contentsline {section}{\numberline {5.3}Menambah Isi Daftar Isi}{14}{section.5.3}
+\contentsline {section}{\numberline {5.4}Memasukan PDF}{14}{section.5.4}
+\contentsline {section}{\numberline {5.5}Membuat Perintah Baru}{18}{section.5.5}
+\contentsline {chapter}{\numberline {6}\uppercase {??}}{19}{chapter.6}
+\contentsline {chapter}{\numberline {7}\uppercase {Kesimpulan dan Saran}}{20}{chapter.7}
+\contentsline {section}{\numberline {7.1}Kesimpulan}{20}{section.7.1}
+\contentsline {section}{\numberline {7.2}Saran}{20}{section.7.2}
+\contentsline {chapter}{Daftar Referensi}{21}{section.7.2}
+\contentsline {chapter}{LAMPIRAN}{1}{section*.17}
+\contentsline {chapter}{Lampiran 1}{2}{section*.18}

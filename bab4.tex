@@ -68,3 +68,37 @@ thesis.tex yang memasukan berkas \latex~yang tidak dibutuhkan;  contohnya
 perintah \bslash include\{bab6.tex\} merupakan kode untuk memasukan berkas 
 bab6.tex kedalam laporan.
 
+%-----------------------------------------------------------------------------%
+\section{Penulisan \textit{code} atau \textit{pseudocode} program}
+%-----------------------------------------------------------------------------%
+
+\subsection{\textit{Inline}}
+
+Dengan perintah \verb|\verb|: \verb|System.out.println("Hello, World");| \\
+Dengan perintah \textit{custom} \verb|\code|: \code{	System.out.println("Hello, World"); }
+
+\subsection{\textit{Multiline}}
+
+Dengan perintah \verb|verbatim|: 
+
+\begin{verbatim}	
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Prints "Hello, World" to the terminal window.
+        System.out.println("Hello, World");
+    }
+}
+\end{verbatim}
+
+Dengan perintah \verb|lstlisting|:
+
+\begin{lstlisting}[language=Java]
+public class HelloWorld {
+ public static void main(String[] args) {
+     // Prints "Hello, World" to the terminal window.
+     System.out.println("Hello, World");
+ }
+}
+\end{lstlisting}
+
+Konfigurasi tampilan bisa dilakukan di \verb|uithesis.sty| dengan referensi dokumentasi di \url{https://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings}
