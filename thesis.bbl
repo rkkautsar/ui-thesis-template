@@ -1,11 +1,17 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
 
-\bibitem{latex.intro}
-J.~Clark, ``Introduction to latex,'' 2010.
+\bibitem[Barto et~al., 1995]{barto1995learning}
+Barto, A.~G., Bradtke, S.~J., and Singh, S.~P. (1995).
+\newblock Learning to act using real-time dynamic programming.
+\newblock {\em Artificial Intelligence}, 72(1):81--138.
 
-\bibitem{chin2000learning}
-C.~Chin and D.~E. Brown, ``Learning in science: A comparison of deep and
-  surface approaches,'' {\em Journal of research in science teaching}, vol.~37,
-  no.~2, pp.~109--138, 2000.
+\bibitem[Chin and Brown, 2000]{chin2000learning}
+Chin, C. and Brown, D.~E. (2000).
+\newblock Learning in science: A comparison of deep and surface approaches.
+\newblock {\em Journal of research in science teaching}, 37(2):109--138.
+
+\bibitem[Lankton, 2008]{lankton2008introduction}
+Lankton, S. (2008).
+\newblock Introduction to latex.
 
 \end{thebibliography}

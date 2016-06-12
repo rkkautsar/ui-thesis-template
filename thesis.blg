@@ -17,51 +17,51 @@ A level-1 auxiliary file: bab4.aux
 A level-1 auxiliary file: bab5.aux
 A level-1 auxiliary file: bab6.aux
 A level-1 auxiliary file: kesimpulan.aux
-The style file: ieeetr.bst
+The style file: apalike.bst
 A level-1 auxiliary file: markLampiran.aux
 A level-1 auxiliary file: lampiran.aux
 Database file #1: pustaka.bib
-Warning--entry type for "latex.intro" isn't style-file defined
---line 5 of file pustaka.bib
-You've used 2 entries,
-            1876 wiz_defined-function locations,
-            507 strings with 3925 characters,
-and the built_in function-call counts, 475 in all, are:
-= -- 48
-> -- 12
-< -- 0
-+ -- 5
-- -- 3
-* -- 29
-:= -- 71
-add.period$ -- 2
-call.type$ -- 2
-change.case$ -- 2
-chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 21
-empty$ -- 49
-format.name$ -- 3
-if$ -- 115
-int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 1
-newline$ -- 9
-num.names$ -- 2
-pop$ -- 8
+Warning--I didn't find a database entry for "latex.intro"
+Warning--empty journal in lankton2008introduction
+You've used 3 entries,
+            1935 wiz_defined-function locations,
+            510 strings with 4325 characters,
+and the built_in function-call counts, 1105 in all, are:
+= -- 108
+> -- 38
+< -- 2
++ -- 12
+- -- 12
+* -- 95
+:= -- 198
+add.period$ -- 8
+call.type$ -- 3
+change.case$ -- 21
+chr.to.int$ -- 3
+cite$ -- 4
+duplicate$ -- 41
+empty$ -- 80
+format.name$ -- 17
+if$ -- 209
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 3
+newline$ -- 17
+num.names$ -- 9
+pop$ -- 17
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 21
 quote$ -- 0
-skip$ -- 19
+skip$ -- 33
 stack$ -- 0
-substring$ -- 32
-swap$ -- 9
+substring$ -- 83
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 5
-width$ -- 3
-write$ -- 20
-(There was 1 warning)
+type$ -- 18
+warning$ -- 1
+while$ -- 10
+width$ -- 0
+write$ -- 38
+(There were 2 warnings)
