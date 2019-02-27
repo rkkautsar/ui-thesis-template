@@ -16,13 +16,13 @@
 \documentclass[12pt, a4paper, onecolumn, oneside, final]{report}
 
 % Load konfigurasi LaTeX untuk tipe laporan thesis
-\usepackage{uithesis}
+\usepackage{_internals/uithesis}
 
+% Daftar pemenggalan suku kata dan istilah dalam LaTeX
+\include{_internals/hype.indonesia}
 
 % Load konfigurasi khusus untuk laporan yang sedang dibuat
-\input{laporan_setting}
-% Daftar pemenggalan suku kata dan istilah dalam LaTeX
-\include{hype.indonesia}
+\input{settings}
 % Daftar istilah yang mungkin perlu ditandai 
 \input{istilah}
 
@@ -30,7 +30,7 @@
 \begin{document}
 %
 % Sampul Laporan
-\include{sampul}
+\include{_internals/sampul}
 
 %
 % Gunakan penomeran romawi
@@ -39,7 +39,7 @@
 %
 % load halaman judul dalam
 \addChapter{HALAMAN JUDUL}
-\include{judul_dalam}
+\include{_internals/judul_dalam}
 
 %
 % setelah bagian ini, halaman dihitung sebagai halaman ke 2
@@ -48,30 +48,30 @@
 %
 % load halaman pengesahan
 \addChapter{LEMBAR PERSETUJUAN}
-\include{pengesahan}
+\include{src/00-front_matter/01-persetujuan}
 %
 % load halaman orisinalitas 
 \addChapter{LEMBAR PERNYATAAN ORISINALITAS}
-\include{orisinal}
+\include{src/00-front_matter/02-orisinalitas}
 %
 %
 \addChapter{LEMBAR PENGESAHAN}
-\include{pengesahan_sidang}
+\include{src/00-front_matter/03-pengesahan_sidang}
 %
 %
 \addChapter{\kataPengantar}
-\include{pengantar}
+\include{src/00-front_matter/04-pengantar}
 %
 %
 \addChapter{LEMBAR PERSETUJUAN PUBLIKASI ILMIAH}
-\include{persetujuan_publikasi}
+\include{src/00-front_matter/05-persetujuan_publikasi}
 %
 % 
 \addChapter{ABSTRAK}
-\include{abstrak}
+\include{src/00-front_matter/06-abstrak}
 %
 %
-\include{abstract}
+\include{src/00-front_matter/07-abstract}
 
 %
 % Daftar isi, gambar, dan tabel
@@ -91,13 +91,13 @@
 %
 %
 %
-\include{bab1}
-\include{bab2}
-\include{bab3}
-\include{bab4}
-\include{bab5}
-\include{bab6}
-\include{kesimpulan}
+\include{src/01-body/01-bab1}
+\include{src/01-body/02-bab2}
+\include{src/01-body/03-bab3}
+\include{src/01-body/04-bab4}
+\include{src/01-body/05-bab5}
+\include{src/01-body/06-bab6}
+\include{src/01-body/99-kesimpulan}
 
 %
 % Daftar Pustaka
@@ -111,9 +111,9 @@
 % Lampiran 
 %
 \begin{appendix}
-	\include{markLampiran}
+	\include{_internals/markLampiran}
 	\setcounter{page}{2}
-	\include{lampiran}
+	\include{src/99-back_matter/lampiran}
 \end{appendix}
 
 \end{document}
