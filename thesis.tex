@@ -19,7 +19,7 @@
 \usepackage{_internals/uithesis}
 
 % Daftar pemenggalan suku kata dan istilah dalam LaTeX
-\include{_internals/hype.indonesia}
+\input{_internals/hype.indonesia}
 
 % Load konfigurasi khusus untuk laporan yang sedang dibuat
 \input{settings}
@@ -30,7 +30,7 @@
 \begin{document}
 %
 % Sampul Laporan
-\include{_internals/sampul}
+\input{_internals/sampul}
 
 %
 % Gunakan penomeran romawi
@@ -39,7 +39,7 @@
 %
 % load halaman judul dalam
 \addChapter{HALAMAN JUDUL}
-\include{_internals/judul_dalam}
+\input{_internals/judul_dalam}
 
 %
 % setelah bagian ini, halaman dihitung sebagai halaman ke 2
@@ -48,30 +48,30 @@
 %
 % load halaman pengesahan
 \addChapter{LEMBAR PERSETUJUAN}
-\include{src/00-front_matter/01-persetujuan}
+\input{src/00-front_matter/01-persetujuan}
 %
 % load halaman orisinalitas 
 \addChapter{LEMBAR PERNYATAAN ORISINALITAS}
-\include{src/00-front_matter/02-orisinalitas}
+\input{src/00-front_matter/02-orisinalitas}
 %
 %
 \addChapter{LEMBAR PENGESAHAN}
-\include{src/00-front_matter/03-pengesahan_sidang}
+\input{src/00-front_matter/03-pengesahan_sidang}
 %
 %
 \addChapter{\kataPengantar}
-\include{src/00-front_matter/04-pengantar}
+\input{src/00-front_matter/04-pengantar}
 %
 %
 \addChapter{LEMBAR PERSETUJUAN PUBLIKASI ILMIAH}
-\include{src/00-front_matter/05-persetujuan_publikasi}
+\input{src/00-front_matter/05-persetujuan_publikasi}
 %
 % 
 \addChapter{ABSTRAK}
-\include{src/00-front_matter/06-abstrak}
+\input{src/00-front_matter/06-abstrak}
 %
 %
-\include{src/00-front_matter/07-abstract}
+\input{src/00-front_matter/07-abstract}
 
 %
 % Daftar isi, gambar, dan tabel
@@ -97,17 +97,17 @@
 %
 %
 %
-\include{src/01-body/01-bab1}
-\include{src/01-body/02-bab2}
-\include{src/01-body/03-bab3}
-\include{src/01-body/04-bab4}
-\include{src/01-body/05-bab5}
-\include{src/01-body/06-bab6}
-\include{src/01-body/99-kesimpulan}
+\input{src/01-body/01-bab1}
+\input{src/01-body/02-bab2}
+\input{src/01-body/03-bab3}
+\input{src/01-body/04-bab4}
+\input{src/01-body/05-bab5}
+\input{src/01-body/06-bab6}
+\input{src/01-body/99-kesimpulan}
 
 %
 % Daftar Pustaka
-%\include{pustaka}
+%\input{pustaka}
 
 % Alternatif manajemen daftar pustaka dengan \bibliography
 \bibliographystyle{apalike}
@@ -116,10 +116,10 @@
 %
 % Lampiran 
 %
-\begin{appendix}
-	\include{_internals/markLampiran}
-	\setcounter{page}{2}
-	\include{src/99-back_matter/lampiran}
-\end{appendix}
+% \begin{appendix}
+% 	\input{_internals/markLampiran}
+% 	\setcounter{page}{2}\textbf{}
+% 	\input{src/99-back_matter/lampiran}
+% \end{appendix}
 
 \end{document}

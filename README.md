@@ -6,15 +6,23 @@ LaTeX configuration for report/thesis/dissertation according to [University Indo
 
 Author: Andreas Febrian
 
-Contributors: 
+Contributors:
 
-1. Lia Sadita 
+1. Lia Sadita
 2. Andre Tampubolon
 3. Erik Dominikus
 4. Fahrurrozi Rahman
 
 ## Updates
 
-* Alternative bibliography management
-* Handling multiline source code
-* Additional math symbols
+- Alternative bibliography management
+- Handling multiline source code
+- Additional math symbols
+
+---
+
+## Modifications
+
+- Restructure project
+- Add code listings with [minted](https://github.com/gpoore/minted)
+- Makefile
