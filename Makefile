@@ -12,7 +12,7 @@ pdf: $(DOCNAME).pdf
 
 # Rules
 %.pdf: %.tex
-	$(LATEXMK) -pdf -shell-escape -outdir=out -file-line-error $*
+	$(LATEXMK) -synctex=1 -pdf -shell-escape -outdir=out -file-line-error $*
 
 mostlyclean:
 	$(LATEXMK) -silent -outdir=out -c

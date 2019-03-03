@@ -45,7 +45,6 @@
 % 
 \usepackage{hyperref}
   \hypersetup{
-  	a4paper, 
   	colorlinks=false,
   	pdfborder=0 0 0,
   	linkcolor=blue,
@@ -106,6 +105,7 @@
 % 
 \usepackage{amsmath}
 \usepackage{amsfonts}
+\usepackage{bm}
 
 % 
 % Membuat seluruh tulisan menjadi Times New Roman.
@@ -146,9 +146,11 @@
 \usepackage{nicefrac}
 
 % Code listing
-\usepackage[outputdir=out]{minted}
-\renewcommand{\listingscaption}{Kode}
-\renewcommand{\listoflistingscaption}{Daftar \listingscaption}
+\usepackage[titles]{tocloft}
+\newlistof{listing}{lol}{Daftar Kode}
+\usepackage[outputdir=out, newfloat]{minted}
+\usepackage{caption}
+\SetupFloatingEnvironment{listing}{name=\bo{Kode}}
 \setminted{
 	style=pastie,
 	autogobble,
@@ -177,12 +179,15 @@
 }
 \surroundwithmdframed[style=code]{minted}
 
-\renewcommand{\listoflistings}{%
-	\cleardoublepage
-  \addcontentsline{toc}{chapter}{\listoflistingscaption}%
-  \listof{listing}{\listoflistingscaption}%
-}
 
+\renewcommand{\cftlistingpresnum}{\bo{Kode}~}
+\setlength{\cftlistingnumwidth}{1in}
+
+\renewcommand{\cftfigpresnum}{\figurename~}
+\setlength{\cftfignumwidth}{1in}
+
+\renewcommand{\cfttabpresnum}{\tablename~}
+\setlength{\cfttabnumwidth}{1in}
 
 %-----------------------------------------------------------------------------%
 % Konfigurasi
@@ -233,7 +238,7 @@
 	\fancyhead[C]{} 
 	\fancyhead[R]{\thepage} 
 	\renewcommand{\headrulewidth}{0.0pt} 
-	\fancyfoot[R]{\footnotesize \bo{Universitas Indonesia}} 
+	\fancyfoot[R]{\footnotesize \textsf{\bo{Universitas Indonesia}}}
 	\renewcommand{\footrulewidth}{0.0pt} 
 \pagestyle{fancy}
 
@@ -253,13 +258,10 @@
 \newcommand{\bo}[1]{\textbf{#1}}
 % 
 % 
-\newcommand{\m}[1]{\boldmath{ \( #1 \)}}
+\newcommand{\m}[1]{\bm{#1}}
 % 
 % 
-\newcommand{\mc}[1]{\boldmath{ \[ #1 \]}}
-% 
-% 
-\newcommand{\code}[1]{{\ttfamily #1}}
+\newcommand{\code}[1]{{\texttt{#1}}}
 % 
 % Buat catatan kecil. Catatan akan ditampilkan dalam tabel. 
 \newcommand{\todo}[1]{
@@ -313,16 +315,16 @@
 %-----------------------------------------------------------------------------%
 %
 % Beberapa istilah yang tepat untuk digunakan dalam laporan.
-\renewcommand{\bibname}{Daftar Referensi}
+\renewcommand{\bibname}{\uppercase{Daftar Referensi}}
 % 
 % 
-\renewcommand{\contentsname}{Daftar Isi}
+\renewcommand{\contentsname}{\uppercase{Daftar Isi}}
 % 
 % 
-\renewcommand{\listfigurename}{Daftar Gambar}
+\renewcommand{\listfigurename}{\uppercase{Daftar Gambar}}
 % 
 % 
-\renewcommand{\listtablename}{Daftar Tabel}
+\renewcommand{\listtablename}{\uppercase{Daftar Tabel}}
 % 
 % 
 \renewcommand{\chaptername}{BAB}
@@ -341,4 +343,3 @@
 % 
 % 
 \newcommand{\equ}{Persamaan}
-

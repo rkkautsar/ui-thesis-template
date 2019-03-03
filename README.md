@@ -26,3 +26,5 @@ Contributors:
 - Restructure project
 - Add code listings with [minted](https://github.com/gpoore/minted)
 - Makefile
+- Modify to latest (2017) standard according to _KEPUTUSAN REKTOR UNIVERSITAS INDONESIA NOMOR 2143/SK/R/Ul/2017_.
+- Use eps for UI logo
